@@ -1,0 +1,12 @@
+{
+  "name": "m2-mpa-notes",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Module 2 Practice Assessment starter — connect React to an Express API",
+  "scripts": {
+    "dev": "concurrently -n server,client -c green,cyan \"npm --prefix server start\" \"npm --prefix client run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
